@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+}
+
+p{
+    font-size: 32px;
+    line-height: 37px;
+    padding: 15px 0 35px;    
+}
+/*.content {}*/
+
+.container{
+    box-sizing: border-box;
+    max-width: 1219px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    /*width: 100%;
+    max-width: 2011px;
+    height: 84px;*/
+    height: 64px;
+    padding: 20px;
+    background-color: rgba(0, 119, 101, 1);
+    /*display: inline-flex;
+    justify-content: space-between;*/
+}
+
+.logo img{
+    width: 184px;
+    height: 45px;
+}
+
+.nav{
+    font-size: 24px;
+    line-height: 28px;
+    color: #fff;
+    float: right;
+    padding-top: 8px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    padding-top: 48px;
+}
+
+h2{
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 75px;
+    color: rgba(0, 119, 101, 1);
+}
+
+
+.top{
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-image: url('images/1background.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+.top__message{  
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #fff;
+}
+
+.problem{
+    background-color: #eee;
+}
+
+.text{
+    padding-bottom: 90px;
+}
+
+.hero {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-image: url('images/background_img.png');
+    background-size: cover;
+    background-position: center center;
+}
+  
+.hero__message {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+}
+
+img.ppclogo{
+    width: 115px;
+    height: 115px;
+    float: left;
+    margin-right: 48px;
+}
+
+.hidden{
+    clear: both;
+}
+
+.member {
+    text-align: center;
+    padding: 24px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    width: 350px;
+    height: 283px;
+}
+
+.member img{
+    width: 168px;
+    height: 168px;
+}
+
+.member-name {
+    margin: 0;
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #007765;
+}
+  
+.member-role {
+    font-style: italic;
+    font-size: 18px;
+}
+  
+.members {
+    width: 100%;
+    margin-top: 48px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.footer{
+    width: 100%;
+    height: 176px;
+    padding-top: 48px;
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    line-height: 21px;
+}
