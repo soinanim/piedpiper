@@ -151,3 +151,9 @@ img.ppc-logo{
     font-size: 18px;
     line-height: 21px;
 }
+
+.footer .text {
+    margin: 0 auto;
+    padding: 50px;
+    width: 40%;
+}
